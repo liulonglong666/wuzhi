@@ -1,0 +1,14 @@
+.bottom{
+	width: 100%;
+	border-top: 5px solid #8FA5AB;
+	margin: 0 auto;
+	padding-top: 20px;
+	color: #999;
+	font-size: 16px;
+}
+.container{
+	
+}
+.bottom span:nth-child(2){
+	float: right;
+}

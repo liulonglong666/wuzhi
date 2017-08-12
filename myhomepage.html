@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的主页</title>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/top_logined.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myhomepage.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<ul class="left">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">我的主页</a></li>
+					<li><a href="#">此刻</a></li>
+				</ul>
+				<ul class="right">
+					<li><a href="#">写日记</a></li>
+					<li><a href="#">设置</a></li>
+					<li><a href="#">退出</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container page">
+			<div class="page-left">
+				<div class="imgshadow">
+					<img src="img/weixin_qrcode.jpg" alt="" />
+				</div>
+				<div class="siderbar">
+					<span>少年不识愁滋味，爱上层楼。爱上层楼</span>
+				</div>
+			</div>
+			<div class="page-right">
+				<div class="date">
+					<span class="time1">2017年5月5</span>
+					<span class="num">
+						<img src="img/flower-16.png"/>*1
+					</span>
+				</div>
+			    <div class="notelist">
+			    	<span>15:03</span>
+			    	<p>123请问兄弟</p>
+			    </div>
+			     <div class="notelist">
+			    	<span>15:03</span>
+			    	<p>123请问兄弟</p>
+			    </div>
+			    <div class="notelist">
+			    	<span>19:20</span>
+			    	<p>今天我注册了</p>
+			    </div>
+			    <div class="notelist">
+			    	<span>19:20</span>
+			    	<p>今天我注册了</p>
+			    </div>
+			    <div class="username">
+			    	-- <span>我叫刘某我希望你快乐</span>
+			    </div>
+			</div>
+		</div>
+		<div class="footer container">
+			<span>©2010-2017 &nbsp;吾志&nbsp;wuzhi.me</span>
+			<ul>
+				<li><a href="#">手机版</a></li>
+				<li><a href="#">吾志更新</a></li>
+				<li><a href="#">关于吾志</a></li>
+			</ul>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.v1.9.1.js"></script>
+	<script type="text/javascript">
+		var num=$(".page-right").height();
+		$(".username").css({
+			top:num+'px',
+		})
+	</script>
+</html>
