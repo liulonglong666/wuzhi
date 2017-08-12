@@ -1,0 +1,80 @@
+ .content{
+	width: 840px;
+	margin: 35px auto;
+}
+.t1{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.content .introduce{
+	float: left;
+	border-right: 1px solid #A0A0A0;
+}
+.content .introduce .wz{
+	font-size: 24px;
+}
+.content .introduce .int{
+	line-height: 75px;
+}
+.content .introduce a.reg{
+	display: inline-block;
+	font-size: 20px;
+    background-color: #9FBB58;
+    color: #fff;
+    /* width: 200px; */
+    /* height: 30px; */
+    margin-top: 25px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.content .introduce .title{
+	color: #009966;
+	font-weight: bold;
+}
+.content .login{
+	float: right;
+	margin-top: 16px;
+}
+.content .login .sr{
+	width: 200px;
+	height: 25px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.content .login .sr1{
+	margin-bottom: 10px;
+}
+.content .login .division{
+	margin: 0 10px;
+}
+.content .login .email{
+	margin-left: -50px;
+}
+
+.content .login .pass{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.content .login .findPass{
+	color: blue;
+}
+.content .login button{
+	padding: 8px 30px;
+	font-size: 18px;
+}
+
+/***********************************t2*****************************************/
+
+.t2 a{
+	margin-left: 17px;
+}
+.t2 a:first-child{
+	margin-left: 0;
+}
+.t2 a:last-child{
+	margin-right: 0;
+}
+.t2 a img{
+	width: 150px;
+	box-shadow: 3px 3px 4px #DDDDDD;
+}

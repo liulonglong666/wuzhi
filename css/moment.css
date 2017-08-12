@@ -1,0 +1,34 @@
+.content{
+	width: 840px;
+	margin: 20px auto;
+}
+.pri{
+	margin: 10px 0;
+	color: #808080;
+	font-size: 16px;
+}
+.images img{
+	box-shadow: 3px 3px 4px #DDDDDD;
+}
+.page-nav{
+	overflow: hidden;
+	text-align: center;
+}
+.page-nav ul{
+	display: inline-block;
+	list-style: none;
+	margin: 50px auto 10px;
+}
+.page-nav ul li{
+	float:left;
+}
+.page-nav ul li a{
+	text-decoration: none;
+	color: #000;
+	margin: 0 10px;
+}
+.page-nav ul li a.curr-page{
+	border-radius: 50%;
+	background-color:  #c5c5c5;
+	padding: 3px 9px;
+}

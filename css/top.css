@@ -14,18 +14,16 @@ body{
 	margin: 0 auto;
 	font-weight: bold;
 }
-.nav a:hover{
-	color: #fff;
+.nav a{
+	text-decoration: none;
+	color: #ddd;
 }
-.nav .left{
-	float: left;
+.nav a:nth-child(1){
+	margin-right: 20px;
 }
-.nav .left a{
-	margin-right: 10px;
-}
-.nav .right{
+.nav a.register{
 	float: right;
 }
-.nav .right a{
-	margin-left: 10px;
+.nav a:hover{
+	color: #fff;
 }
